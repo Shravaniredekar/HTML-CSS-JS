@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking Website</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #fff8f0;
+            margin: 25px;
+        }
+        h1 {
+            color: #8b4513;
+        }
+        h2 {
+            color: #5a3a1b;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 18px;
+            width: 350px;
+            border: 2px solid #d2b48c;
+            border-radius: 6px;
+        }
+        table {
+            width: 75%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #5a3a1b;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f3e5d8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hotel Name -->
+    <h1>Sunrise Bay Hotel</h1>
+
+    <!-- Hotel Description -->
+    <p>
+        Welcome to Sunrise Bay Hotel, where comfort meets elegance.
+        Guests can explore room options, view pricing details,
+        and book their stay using the form below.
+    </p>
+
+    <!-- Room Types -->
+    <h2>Our Rooms</h2>
+    <ul>
+        <li>Classic Single Room</li>
+        <li>Deluxe Double Room</li>
+        <li>Sea View Premium Room</li>
+        <li>Royal Family Suite</li>
+    </ul>
+
+    <!-- Booking Form -->
+    <h2>Guest Booking Details</h2>
+    <form>
+        <label>Guest Full Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Contact Number:</label><br>
+        <input type="tel" required><br><br>
+
+        <label>Check-In Date:</label><br>
+        <input type="date"><br><br>
+
+        <label>Check-Out Date:</label><br>
+        <input type="date"><br><br>
+
+        <label>Number of Guests:</label><br>
+        <input type="number" min="1" max="6"><br><br>
+
+        <label>Select Room Type:</label><br>
+        <select>
+            <option>Classic Single Room</option>
+            <option>Deluxe Double Room</option>
+            <option>Sea View Premium Room</option>
+            <option>Royal Family Suite</option>
+        </select><br><br>
+
+        <input type="submit" value="Book Your Stay">
+    </form>
+
+    <!-- Pricing Table -->
+    <h2>Room Tariff</h2>
+    <table>
+        <tr>
+            <th>Room Type</th>
+            <th>Bed Type</th>
+            <th>Facilities</th>
+            <th>Price / Night</th>
+        </tr>
+        <tr>
+            <td>Classic Single Room</td>
+            <td>Single Bed</td>
+            <td>Wi-Fi, TV</td>
+            <td>₹1800</td>
+        </tr>
+        <tr>
+            <td>Deluxe Double Room</td>
+            <td>Double Bed</td>
+            <td>AC, Wi-Fi, TV</td>
+            <td>₹2800</td>
+        </tr>
+        <tr>
+            <td>Sea View Premium Room</td>
+            <td>King Bed</td>
+            <td>AC, Balcony, Breakfast</td>
+            <td>₹4200</td>
+        </tr>
+        <tr>
+            <td>Royal Family Suite</td>
+            <td>2 King Beds</td>
+            <td>All Facilities Included</td>
+            <td>₹6000</td>
+        </tr>
+    </table>
+
+</body>
+</html>

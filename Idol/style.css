@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #fff7ed, #ffedd5);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.idol-wrapper {
+    width: 850px;
+    background-color: white;
+    margin: 80px auto;
+    display: flex;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.image-section {
+    width: 40%;
+    background-color: #9a3412;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.content-section {
+    width: 60%;
+    padding: 40px;
+    text-align: left;
+}
+
+.content-section h1 {
+    color: #9a3412;
+}
+
+.content-section h3 {
+    font-style: italic;
+    color: #7c2d12;
+    margin-top: 5px;
+}
+
+.content-section p {
+    margin: 25px 0;
+    line-height: 1.8;
+    color: #444;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #9a3412;
+    padding: 12px 26px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #7c2d12;
+    transform: translateY(-2px);
+}
