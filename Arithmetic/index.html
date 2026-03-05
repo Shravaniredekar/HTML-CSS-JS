@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator with Switch</title>
+</head>
+<body>
+
+    <h2>Calculator (Switch Statement)</h2>
+
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <input type="text" id="operator" placeholder="Enter operator (+, -, *, /)">
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+
+    <script>
+        function calculate() {
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
+            let op = document.getElementById("operator").value;
+            let result;
+
+            switch(op) {
+                case "+":
+                    result = a + b;
+                    break;
+                case "-":
+                    result = a - b;
+                    break;
+                case "*":
+                    result = a * b;
+                    break;
+                case "/":
+                    if (b !== 0) {
+                        result = a / b;
+                    } else {
+                        result = "Cannot divide by zero";
+                    }
+                    break;
+                default:
+                    result = "Invalid operator";
+            }
+
+            document.getElementById("result").innerText = "Result: " + result;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* style1.css */
+/* Light and clean design */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    background: #ffffff;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    width: 300px;
+}
+
+input, select {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
