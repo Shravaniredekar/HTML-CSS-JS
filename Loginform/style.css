@@ -1,0 +1,63 @@
+/* Reset default browser spacing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Page background and font */
+body {
+  font-family: system-ui, sans-serif;
+  height: 100vh;
+}
+
+/* Two-column layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  height: 100%;
+}
+
+/* Branding section */
+.left {
+  background: #4f46e5;
+  color: white;
+  padding: 60px;
+}
+
+/* Login form area */
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form styling */
+form {
+  width: 300px;
+}
+
+label {
+  font-size: 14px;
+  margin-top: 16px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

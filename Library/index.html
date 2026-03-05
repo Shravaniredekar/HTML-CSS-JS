@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+
+    <!-- Simple Library Style -->
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #fdfcf7;
+            margin: 20px;
+        }
+        h1 {
+            color: #4b3621;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 15px;
+            width: 350px;
+            border: 1px solid #aaa;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #e6dccf;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Library Name -->
+    <h1>City Central Library</h1>
+
+    <!-- Description -->
+    <p>
+        City Central Library provides a wide collection of books for students,
+        researchers, and readers. Members can borrow books and access library resources.
+    </p>
+
+    <!-- Book List -->
+    <h2>Available Books</h2>
+    <ul>
+        <li>Introduction to Programming</li>
+        <li>Database Management Systems</li>
+        <li>Operating System Concepts</li>
+        <li>Computer Networks</li>
+    </ul>
+
+    <!-- Membership Form -->
+    <h2>Library Membership Form</h2>
+    <form>
+        <label>Member Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email ID:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Contact Number:</label><br>
+        <input type="tel"><br><br>
+
+        <label>Membership Type:</label><br>
+        <select>
+            <option>Student</option>
+            <option>Faculty</option>
+            <option>General</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Book Details Table -->
+    <h2>Book Details</h2>
+    <table>
+        <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Category</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Introduction to Programming</td>
+            <td>John Smith</td>
+            <td>Computer Science</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Database Management Systems</td>
+            <td>R. Elmasri</td>
+            <td>IT</td>
+            <td>Issued</td>
+        </tr>
+        <tr>
+            <td>Operating System Concepts</td>
+            <td>Silberschatz</td>
+            <td>Computer Science</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Computer Networks</td>
+            <td>Andrew S. Tanenbaum</td>
+            <td>Networking</td>
+            <td>Available</td>
+        </tr>
+    </table>
+
+</body>
+</html>
