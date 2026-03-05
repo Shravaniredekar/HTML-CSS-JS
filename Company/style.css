@@ -1,0 +1,54 @@
+body {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    background-color: #f0f8f5;
+    margin: 0;
+    padding: 0;
+    color: #2e3d32;
+}
+
+header {
+    text-align: center;
+    background-color: #2e7d32;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.company-info {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #e8f5e9;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.company-info h2 {
+    color: #1b5e20;
+    margin-top: 20px;
+}
+
+.company-info p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.products {
+    list-style-type: circle;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.products li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}

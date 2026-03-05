@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+
+    <!-- Internal CSS for basic styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            width: 300px;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Heading -->
+    <h1>Event Management System</h1>
+
+    <!-- Paragraph -->
+    <p>
+        Welcome to our Event Management System. Here you can explore upcoming events,
+        register for participation, and view the complete event schedule.
+    </p>
+
+    <!-- List of Events -->
+    <h2>Upcoming Events</h2>
+    <ul>
+        <li>Technical Workshop</li>
+        <li>Cultural Fest</li>
+        <li>Music Concert</li>
+        <li>Sports Meet</li>
+    </ul>
+
+    <!-- Registration Form -->
+    <h2>Event Registration Form</h2>
+    <form>
+        <!-- Name input -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Event selection -->
+        <label for="event">Select Event:</label><br>
+        <select id="event" name="event">
+            <option>Technical Workshop</option>
+            <option>Cultural Fest</option>
+            <option>Music Concert</option>
+            <option>Sports Meet</option>
+        </select><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Event Schedule Table -->
+    <h2>Event Schedule</h2>
+    <table>
+        <tr>
+            <th>Event Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>Technical Workshop</td>
+            <td>10 March 2026</td>
+            <td>10:00 AM</td>
+            <td>Hall A</td>
+        </tr>
+        <tr>
+            <td>Cultural Fest</td>
+            <td>12 March 2026</td>
+            <td>5:00 PM</td>
+            <td>Open Ground</td>
+        </tr>
+        <tr>
+            <td>Music Concert</td>
+            <td>14 March 2026</td>
+            <td>7:00 PM</td>
+            <td>Auditorium</td>
+        </tr>
+        <tr>
+            <td>Sports Meet</td>
+            <td>16 March 2026</td>
+            <td>9:00 AM</td>
+            <td>Sports Complex</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+

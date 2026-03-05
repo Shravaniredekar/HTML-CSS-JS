@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Centered feedback form container -->
+  <div class="form-container">
+
+    <h2>Feedback Form</h2>
+
+    <form class="form-box">
+
+      <!-- Name field -->
+      <label>Full Name</label>
+      <input type="text" name="name" placeholder="Enter your name" required>
+
+      <!-- Email field -->
+      <label>Email Address</label>
+      <input type="email" name="email" placeholder="Enter your email" required>
+
+      <!-- Feedback options (radio buttons) -->
+      <label>How would you rate our service?</label>
+      <div class="options">
+        <label><input type="radio" name="rating" value="Excellent"> Excellent</label>
+        <label><input type="radio" name="rating" value="Good"> Good</label>
+        <label><input type="radio" name="rating" value="Average"> Average</label>
+        <label><input type="radio" name="rating" value="Poor"> Poor</label>
+      </div>
+
+      <!-- Feedback categories (checkboxes) -->
+      <label>Which features did you use? (Select all that apply)</label>
+      <div class="options">
+        <label><input type="checkbox" name="features" value="Support"> Support</label>
+        <label><input type="checkbox" name="features" value="Website"> Website</label>
+        <label><input type="checkbox" name="features" value="Products"> Products</label>
+        <label><input type="checkbox" name="features" value="Delivery"> Delivery</label>
+      </div>
+
+      <!-- Comments -->
+      <label>Additional Comments</label>
+      <textarea name="comments" placeholder="Enter your comments"></textarea>
+
+      <!-- Submit button -->
+      <button type="submit">Submit Feedback</button>
+    </form>
+
+  </div>
+
+</body>
+</html>

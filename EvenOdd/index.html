@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Even or Odd Function</title>
+</head>
+<body>
+
+    <h2>Check if Number is Even</h2>
+    <input type="number" id="numberInput" placeholder="Enter an integer">
+    <button onclick="checkEven()">Check</button>
+
+    <p id="result"></p>
+
+    <script>
+        // Function that returns true if even, false if odd
+        function isEven(num) {
+            return num % 2 === 0;
+        }
+
+        function checkEven() {
+            let number = Number(document.getElementById("numberInput").value);
+            let result = isEven(number);
+
+            document.getElementById("result").innerText = result;
+        }
+    </script>
+
+</body>
+</html>
